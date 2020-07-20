@@ -1,0 +1,32 @@
+package SundayBatch;
+
+public class SwithCaseConcepts2 {
+
+	public static void main(String[] args) {
+
+	
+		String signal="red";
+
+		switch (signal) { //==
+		case "Red":
+			System.out.println("Please Stop");
+				
+			break;
+		case "Green":
+
+			System.out.println("Please Go");
+			break;
+		case "Yellow":
+
+			System.out.println("Please Slowdown");
+			break;
+	
+		default:
+			System.out.println(" Check Your Vision!!!!!");
+			
+			break;
+		}
+
+	}
+
+}

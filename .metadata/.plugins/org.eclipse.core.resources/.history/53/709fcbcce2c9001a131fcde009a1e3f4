@@ -1,0 +1,51 @@
+package JavaSecession;
+
+public class Persons {
+	
+	
+	String name;
+	int age;
+	long phone;
+	
+	
+	public Persons() {  //default constuctor    
+	  
+		System.out.println("default const");
+	}
+	
+	
+	
+   public Persons(int i) {  //default parameters one
+		System.out.println("one parameter const");
+	}
+
+	
+
+	public static void main(String[] args) {
+		
+		Persons p1=new Persons();
+		
+		
+//		Persons p1=new Persons();
+//		
+//		
+//		p1.name="Tom";
+//		p1.age=25;
+//		p1.phone=293434;
+//		
+//		
+//		System.out.println(p1.name+"   "+p1.age+"   "+p1.phone);
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

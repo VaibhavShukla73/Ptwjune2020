@@ -1,0 +1,91 @@
+package SundayBatch;
+
+import java.util.ArrayList;
+
+public class DynamicArrayConcepts {
+
+	public static void main(String[] args) {
+
+		ArrayList <Object> rollno = new  ArrayList<Object>();
+
+		rollno.add(100);
+		rollno.add(200.50);
+		rollno.add("Tom");
+		rollno.add(true);
+		rollno.add('a');
+
+		System.out.println("Size of Array " + rollno.size());
+
+		rollno.add(200);
+
+		System.out.println("Size of Array " + rollno.size());
+		
+			
+		for(Object obj:rollno) {
+			System.out.println(obj);
+		}
+		
+
+//		for (int i = 0; i < rollno.size(); i++) {
+//
+//			System.out.println(rollno.get(i));
+//
+//		}
+
+		System.out.println(" After Remoce Element");
+		rollno.remove(2);
+
+		System.out.println("Size of Array " + rollno.size());
+
+		for (int i = 0; i < rollno.size(); i++) {
+
+			System.out.println(rollno.get(i));
+
+		}		
+
+		System.out.println("===============================");
+		System.out.println("Intege type of array");
+
+		ArrayList<Integer> mark = new ArrayList<Integer>();
+
+		mark.add(20);
+		mark.add(20);
+		mark.add(30);
+		mark.add(0);
+		mark.add(20);
+		
+		
+		for(int i:mark) {
+			System.out.println(i);
+		}
+		
+//
+//		for (int j = 0; j < mark.size(); j++) {
+//			System.out.println(mark.get(j));
+//
+//		}
+
+		System.out.println("===============================");
+		ArrayList<String> studenName = new ArrayList<String>();
+
+		studenName.add("Tom");
+		studenName.add("Smith");
+		studenName.add("Peter");
+//
+//		for (int j = 0; j < studenName.size(); j++) {
+//			System.out.println(studenName.get(j));
+//
+//		}
+		
+		for(String s1:studenName) {
+			System.out.println(s1);
+		}
+		
+		
+		
+		
+		
+
+	}
+
+}

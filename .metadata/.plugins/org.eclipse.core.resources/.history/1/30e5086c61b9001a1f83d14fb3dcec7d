@@ -1,0 +1,24 @@
+package SundayBatch;
+
+public class LoopConcepts {
+
+	public static void main(String[] args) {
+
+		int i=0;
+		
+		while(true) {
+			
+			System.out.println("Java "+i);
+			if(i==10) {
+				
+				break;
+			}
+			i=i+1;
+			
+		}
+		
+		
+		
+	}
+
+}

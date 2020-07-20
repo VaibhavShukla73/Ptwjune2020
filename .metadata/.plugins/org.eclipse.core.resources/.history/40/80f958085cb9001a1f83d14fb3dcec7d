@@ -1,0 +1,24 @@
+package SundayBatch;
+
+public class VoteEligibility {
+
+	public static void main(String[] args) {
+   int age=17;
+   int livingPlace=5;
+   
+   if(age>=18 && livingPlace>=3) {
+	   System.out.println("Person is Eligiable");
+	   
+   }else
+   {
+	   System.out.println("Person is Not Eligiable");
+   }
+	   
+   
+		
+		
+		
+		
+	}
+
+}

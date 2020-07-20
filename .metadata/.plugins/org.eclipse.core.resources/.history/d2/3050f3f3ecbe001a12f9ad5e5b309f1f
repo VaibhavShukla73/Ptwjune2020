@@ -1,0 +1,39 @@
+package SundayBatch;
+
+import java.util.ArrayList;
+
+public class DynamicArrayConcepts {
+
+	public static void main(String[] args) {
+
+		
+		ArrayList rollno=new ArrayList();
+		
+		rollno.add(100);
+		rollno.add(200);
+		rollno.add("Tom");
+		rollno.add(true);
+		rollno.add('a');
+		
+		for(int i=0;i<rollno.size();i++) {
+			
+			System.out.println("Size of Array "+rollno.size());
+			System.out.println(rollno.get(i));
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

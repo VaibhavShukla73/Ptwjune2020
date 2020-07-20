@@ -1,0 +1,33 @@
+package SundayBatch;
+
+public class SwithCaseConcepts2 {
+
+	public static void main(String[] args) {
+
+	
+		String signal="gREEn";
+		signal=signal.toUpperCase(); //RED  
+
+		switch (signal) { //==
+		case "RED":
+			System.out.println("Please Stop");
+				
+			break;
+		case "GREEN":
+
+			System.out.println("Please Go");
+			break;
+		case "YELLOW":
+
+			System.out.println("Please Slowdown");
+			break;
+	
+		default:
+			System.out.println(" Check Your Visionnumber is wrong");
+			
+			break;
+		}
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package Inheritance;
+
+public class TestCar {
+
+	public static void main(String[] args) {
+
+		Bmw b=new Bmw();
+		
+		b.start();
+		b.refuel();
+		b.stop();
+		b.autoparking();
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

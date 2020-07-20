@@ -1,0 +1,62 @@
+package SundayBatch;
+
+public class ArrayConcept {
+
+	public static void main(String[] args) {
+
+		int rollno[] = new int[10];
+
+		rollno[0] = 101;
+		rollno[1] = 102;
+		rollno[2] = 103;
+		rollno[3] = 104;
+		rollno[4] = 105;
+		// rollno[-1]=200;
+//		 rollno[5]=106;
+//		 rollno[6]=107;
+
+		System.out.println(rollno[0]);
+
+		System.out.println(rollno[1]);
+		
+		
+		System.out.println("Array Total "+rollno[1]+rollno[2]);
+
+		rollno[8] = 111;
+		System.out.println("Size of Array " + rollno.length);
+
+		System.out.println("======================");
+
+		for (int i = 0; i < rollno.length; i++) {
+
+			System.out.println(rollno[i]);
+
+		}
+
+		System.out.println("======================");
+
+		String studentName[] = new String[5];
+
+		studentName[0] = "Tom";
+		studentName[1] = "Peter";
+		studentName[2] = "Smith";
+
+		for (int j = 0; j < studentName.length; j++) {
+			System.out.println(studentName[j]);
+		}
+
+		System.out.println("======================");
+
+		double d[] = new double[5];
+
+		d[0] = 10.50;
+		d[1] = 20;
+		d[2] = 30.75;
+
+		for (int j = 0; j < d.length; j++) {
+			System.out.println(d[j]);
+		}
+
+	}
+
+}

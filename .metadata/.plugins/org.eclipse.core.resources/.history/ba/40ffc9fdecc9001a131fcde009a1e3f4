@@ -1,0 +1,10 @@
+package JavaSecession;
+
+public class Canditate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

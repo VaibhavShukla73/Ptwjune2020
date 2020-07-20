@@ -1,0 +1,69 @@
+package SundayBatch;
+
+import java.util.ArrayList;
+
+public class DynamicArrayConcepts {
+
+	public static void main(String[] args) {
+
+		ArrayList rollno = new ArrayList();
+
+		rollno.add(100);
+		rollno.add(200.50);
+		rollno.add("Tom");
+		rollno.add(true);
+		rollno.add('a');
+
+		System.out.println("Size of Array " + rollno.size());
+
+		rollno.add(200);
+
+		System.out.println("Size of Array " + rollno.size());
+
+		for (int i = 0; i < rollno.size(); i++) {
+
+			System.out.println(rollno.get(i));
+
+		}
+
+		
+		System.out.println(" After Remoce Element");
+		rollno.remove(2);
+
+		System.out.println("Size of Array " + rollno.size());
+
+		
+		for (int i = 0; i < rollno.size(); i++) {
+
+			System.out.println(rollno.get(i));
+
+		}
+		
+
+	System.out.println("Intege type of array");	
+		
+		
+		ArrayList<Integer> mark=new ArrayList<Integer>();
+	
+		
+	 mark.add(20);
+	 mark.add(20);
+	 mark.add(30);
+	 mark.add(0);
+	 mark.add(20);
+	 
+	 
+	 for(int j=0;j<mark.size();j++) {
+		 System.out.println(mark.get(j));
+		 
+	 }
+		 
+	 
+	 
+	 
+	 
+		
+
+	}
+
+}
